@@ -1,0 +1,63 @@
+body{
+    color: aquamarine;
+    background: blueviolet;
+    margin: 5px;
+    font-family: "Sour Gummy", sans-serif;
+
+}
+
+header{
+    border-bottom: solid 10px rgb(52, 119, 119 );
+    margin: 20px;
+    font-size: 32px;
+    color: rgb(52, 119, 119);
+}
+
+.chamada{
+    background: rgb(58, 26, 89);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid blueviolet;
+}
+
+.categoria h2{
+    color: dodgerblue;
+}
